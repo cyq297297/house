@@ -22,7 +22,7 @@ body {
   height: 60px;
   background: url('/assets/images/login_title.png') no-repeat center;
 }
-
+/* 一开始注册框隐藏起来 */
 .reg-box {
   display: none;
 }

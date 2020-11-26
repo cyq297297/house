@@ -11,7 +11,7 @@ $.ajaxPrefilter(function (options) {
       Authorization: localStorage.getItem('token') || ''
     }
   }
-  // 全局统一花在函数
+  // 全局统一挂载函数
   options.complete = function (res) {
     // console.log('执行了 complete 回调：')
     // console.log(res)
@@ -26,3 +26,5 @@ $.ajaxPrefilter(function (options) {
 })
 
 // 预处理过滤器
+
+
